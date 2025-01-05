@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero {
+  height: 100vh;
+  background: url("https://via.placeholder.com/1500") no-repeat center
+    center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background: #1a1a1a;
+}
+
+.dark-mode .card {
+  background: #222;
+  color: white;
+}
+
+.dark-mode footer {
+  background: #1a1a1a;
+}
