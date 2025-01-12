@@ -61,19 +61,31 @@
 
     <script>
       const blogPosts = [
-        {
-          title: "Understanding Kubernetes",
-          date: "2023-12-01",
-          content:
-            "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.",
-        },
-        {
-          title: "Introduction to Terraform",
-          date: "2023-11-15",
-          content:
-            "Terraform is an Infrastructure as Code (IaC) tool that helps manage infrastructure in a consistent and efficient way.",
-        },
-      ];
+    {
+      title: "Kubernetes: The Container Orchestration Platform",
+      date: "2023-06-15",
+      content: `
+        Kubernetes has quickly become the go-to platform for managing containerized applications. 
+        Kubernetes (often shortened to K8s) is an open-source system for automating the deployment, 
+        scaling, and management of containerized applications. Originally designed by Google, it is 
+        now maintained by the Cloud Native Computing Foundation (CNCF).
+
+        At its core, Kubernetes is a container orchestration platform that allows users to define their 
+        application's desired state, ensuring automatic scaling, deployment, and load balancing.
+        <a href="kubernetes-blog.html">Read more...</a>
+      `,
+    },
+    {
+      title: "Understanding Kubernetes",
+      date: "2023-12-01",
+      content: "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.",
+    },
+    {
+      title: "Introduction to Terraform",
+      date: "2023-11-15",
+      content: "Terraform is an Infrastructure as Code (IaC) tool that helps manage infrastructure in a consistent and efficient way.",
+    }
+  ];
 
       function renderBlogPosts() {
         const blogContainer = document.getElementById("blog-posts");
